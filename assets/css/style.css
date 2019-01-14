@@ -1,0 +1,278 @@
+
+/*-------------------------------------------------------------------body and header/home*/
+
+body{
+   font-family: 'Noto Serif JP', sans-serif;
+}
+.navbar{
+    min-height: 50px !important;
+    background-color: #D3D3D3;
+    width: auto;
+}
+#home {
+    background-image: url(../images/pot5.jpg);
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative; 
+}
+
+.my-details{
+    padding-top: 120px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.name{
+    font-family: Vernon Adams;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: #808080;
+}
+
+
+/*--------------------------------------------------------------------------------------------------skills*/
+
+#skills{
+    background-image: url("../images/pot2.jpg");
+    background-size: cover;
+    background-position: center 20%;
+    padding: 60px 0px 60px;
+}
+
+/*.dark-box{*/
+/*    background-color: #000000;*/
+/*    padding: 40px;*/
+/*    border:1px solid #ffffff;*/
+/*}*/
+
+@media screen and (max-width: 768px-992px) {
+  .rounded-circle {
+    widows: 100%;
+  }
+}
+.rounded-circle{
+  border-radius: 100%;
+  border:1px solid #ffffff;
+  
+  
+}
+.display-4{
+  padding-top: 90px;
+  
+}
+
+.fa-download{
+    color:#808080;
+}
+
+.my-heading{
+    text-align: center;
+    font-size: 40px;
+    font-family: Vernon Adams;
+    font-weight: bold;
+   
+}
+
+.my-heading h4{
+    padding-top: 20px;
+}
+.about-me{
+    background-color: #FFFFFF;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 1.6;
+    font-size: 16px;
+    font-family: Raleway;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #808080;
+   
+}
+
+.centered{
+    text-align: inherit;
+    font-size: 30px;
+    min-width: inherit;
+}
+.progress-section{
+    margin: 40px 20px;
+   
+}
+
+.progress-bar-warning{
+    background-color:#C0C0C0;
+}
+.progress {
+    position: relative;
+	height: 24px;
+	
+}
+
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 200%;
+	font-size: small;
+	padding: 3px 30px 2px 10px;
+	color:#C0C0C0 ;
+	background-color:#808080;
+	height: 24px;
+}
+
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 800;
+	padding: 3px 10px 2px;
+}
+
+/*-----------------------------------------------------------------------------------portfolio*/
+#portfolio{
+    background-image: url("../images/pot6.jpg");
+    background-size: cover;
+    background-position: center 20%;
+    padding: 50px 0px 50px;
+}
+
+.fa-github{
+    color:#5B4C4C;
+    font-size: 24px;
+}
+
+.demo{
+    color:#5B4C4C; 
+}
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+.work-skills h4 {
+  position: absolute;
+  bottom: 20px;
+  width: 90.25%;
+  padding: 15px;
+  margin-left: 1.5%;
+  margin-bottom: 0;
+  font-weight: 200;
+  line-height: 18px;
+  color: #000000;
+  text-align: center;
+  background:#BDBAAE;
+  border-bottom: 0;
+}
+#auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+
+/*------------------------------------------------------------------------------contact*/
+
+#contact{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: 20;
+}
+
+#contact-box{
+  text-align: center;
+}
+.container text-left{
+    width: 100%;
+    border: 1px solid #8e8e8e;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.btn-success{
+    color: #FFFFFF;
+    font-size: 2rem;
+    border: 2px solid #c9c1ac;
+    background: #696969;
+    transition: all 1s ease-in-out;
+    margin: 0 10px;
+}
+.btn-success:hover {
+    color: #242424;
+    border: 2px solid #c9c1ac;
+    background: #c9c1ac;
+}
+
+
+
+/*------------------------------------------------------------------------------------------footer*/
+
+.footer-social {
+  margin: 0 auto;
+  text-align:center;
+  border: 2px solid #FFFFFF;
+  padding-top: 10px;
+  width: 50%;
+}
+
+.footer-social a {
+  font-size: 50px;
+  width: 60px;
+  height: 60px;
+  margin: 0 4px;
+  text-align: center;
+  display: inline-block;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  transform: rotate(45deg);
+  line-height: 30px;
+  transition: all 500ms ease;
+}
+.footer-social a i {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+/* hover */
+.footer-social a:hover{
+    color: #808080;
+}
+.footer-social a:hover{
+    background: #FFFFFF;
+}
+
+#social-media {
+  margin: 10px 10px;
+  font-size:20px;
+
+
+}
+#social-media a:hover{
+    color: #808080;
+}
+
+
+.container-one{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #808080;
+}
+
